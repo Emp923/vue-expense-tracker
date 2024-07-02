@@ -44,7 +44,7 @@ const onSubmit = () => {
   }
 
   const transactionData = {
-    test: text.value,
+    text: text.value,
     amount: parseFloat(amount.value)
   };
 
